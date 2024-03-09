@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(219, 205, 205);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(209, 231, 209);
+}
+#left{
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    position: relative;
+}
+#right{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(189, 169, 189);
+}
+#rbottom{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+   background-image: url("https://plus.unsplash.com/premium_photo-1663039984787-b11d7240f592?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGJhZG1pbnRvbnxlbnwwfHwwfHx8MA%3D%3D");
+}
+#rtopleft{
+
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    background-image: url("https://images.unsplash.com/photo-1599391398131-cd12dfc6c24e?q=80&w=1911&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+#rtopright{
+    width: 55%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    background-image: url("https://images.unsplash.com/photo-1612677257608-90309859bbec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGJhZG1pbnRvbnxlbnwwfHwwfHx8MA%3D%3D");
+}
+
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+#lnav img{
+    height: 100px;
+    display: flex;
+}
+
+#lnavr a{
+    font-size:80px ;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight:500 ;
+    font-size: 50px;
+}
+
+#lnavr img{
+    color: rgb(109, 99, 247);
+}
+
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#textcenter p{
+    font-size: 220px;
+    font-weight: 600;
+}
+
+#textcenter h1{
+    opacity: 0.6;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#textcenter a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
